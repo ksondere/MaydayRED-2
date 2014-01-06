@@ -1,0 +1,114 @@
+<template name="youtube-slide">
+<div class="container" style='padding:0;'>
+    <div class="row">
+
+        <!-- STRAPSLIDE -->
+        <div class="strapslide" id="strapslide">
+
+            <!-- PRELOADER -->
+            <div class="preloader text-center">
+                <img src="images/loader.gif" alt="Loading.." id="loader" />
+            </div>
+            <!-- /PRELOADER -->
+
+            <!-- STRAPSLIDE CONTAINER -->
+            <div class="strapslide-container">
+                <!-- SLIDE -->
+                <div class="slide" data-animation="fade, rotateccw" id="slide1">
+                    <!-- SLIDE CONTENT -->
+                    <div class="slide-content container">
+
+                        <div class="row" data-top="10%" id="slide5_content">
+                            <div class="col-md-5 col-md-offset-1">
+                                <h2 class="background-red text-center">WHOA!</h2>
+                                <h2 class="text-center">YOU FOUND STRAPSLIDE!</h2>
+                                <ul style="list-style-image:url('images/liststyle.png');" id="slide5_list">
+                                    <li><b>UNLIMITED</b> Customizability</li>
+                                    <li>Based on Bootstrap</li>
+                                    <li>Touch Enabled</li>
+                                    <li>Responsive</li>
+                                    <li>Keyboard Navigation </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /SLIDE CONTENT -->
+                    <!-- BACKGROUND IMAGE -->
+                    <img src="images/default_background5.jpg" class="background-image" alt=""/>
+                    <!-- /BACKGROUND IMAGE -->
+                </div>
+                <!-- /SLIDE -->
+
+                <!-- SLIDE -->
+                <div class="slide" id="slide2">
+                    <!-- SLIDE CONTENT -->
+                    <div class="slide-content container">
+
+                        <div class="strapslide-videofullscreen">
+                            <iframe width="560" height="315" src="http://www.youtube.com/embed/x7QqijTXvaU" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                    <!-- /SLIDE CONTENT -->
+                    <!-- BACKGROUND IMAGE -->
+                    <img src="images/default_background1.jpg" class="background-image" alt=""/>
+                    <!-- /BACKGROUND IMAGE -->
+                </div>
+                <!-- /SLIDE -->
+
+            </div>
+            <!-- /STRAPSLIDE CONTAINER -->
+
+            <!-- PROGRESS BAR -->
+            <div class="row">
+                <div class="col-md-12" style='padding:0;'>
+                    <div class="progress progress-striped">
+                        <div class="progress-bar" style="width: 20%;"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- /PROGRESS BAR -->
+
+            <!-- NEXT-PREV NAVIGATION -->
+            <div class="row strapslide-nav">
+                <a class="prev btn btn-large btn-primary" href="#">&lt;</a>
+                <a class="next btn btn-large btn-primary" href="#">&gt;</a>
+            </div>
+            <!-- /NEXT-PREV NAVIGATION -->
+
+            <!-- PAGINATION -->
+            <div class="row strapslide-pagination">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <ul class='pagination'>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- /PAGINATION -->
+
+        </div>
+        <!-- /STRAPSLIDE -->
+
+    </div>
+</div>
+
+<!-- PAGE CONTENT
+================================================== -->
+<div class="container">
+    <!--
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>STRAPSLIDE BOOTSTRAP 3</h1>
+        </div>
+    </div>
+    -->
+    <hr/>
+
+    <footer>
+        <p>Copyright &copy; Mayday RED 2013. All rights reserved.</p>
+    </footer>
+
+</div>
+<!-- /PAGE CONTENT -->
+</template>
